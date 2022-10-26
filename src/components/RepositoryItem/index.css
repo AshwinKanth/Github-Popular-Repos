@@ -1,0 +1,36 @@
+.repositoryList-Item-container {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  margin: 30px;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  background-color: #f8f8ff;
+  border-radius: 10px;
+}
+
+.avatar-img {
+  width: 92px;
+  height: 92px;
+}
+.name {
+  color: #e73959;
+  font-size: 25px;
+  font-family: 'Roboto';
+}
+.item-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.image {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.count {
+  font-size: 15px;
+  color: #1e293b;
+  font-family: 'Roboto';
+}

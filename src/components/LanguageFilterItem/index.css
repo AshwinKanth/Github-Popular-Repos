@@ -1,0 +1,19 @@
+.language-list-item-container {
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+}
+.tab-item {
+  border: none;
+  background-color: transparent;
+  color: #0f172a;
+  font-size: 18px;
+  font-family: 'Roboto';
+  cursor: pointer;
+}
+.onActive {
+  border: 2px solid #0284c7;
+  color: #0284c7;
+  border-radius: 15px;
+  padding: 3px 14px 3px 14px;
+}
